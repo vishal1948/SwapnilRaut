@@ -166,7 +166,7 @@ section{padding:96px 0;}
 .about-portrait::before{
   content:'';
   position:absolute; inset:0;
-  background:repeating-linear-gradient(to bottom, transparent 0 46px, rgba(176,141,62,0.14) 46px 47px);
+  /* background:repeating-linear-gradient(to bottom, transparent 0 46px, rgba(176,141,62,0.14) 46px 47px); */
   z-index:1;
 }
 .about-portrait .profile-photo{

@@ -98,3 +98,10 @@ $(function () {
   });
 
 });
+
+// Automated copyright 
+$(document).ready(function() {
+    var currentYear = new Date().getFullYear();
+    $('#copyright-year').text(currentYear);
+});
+
