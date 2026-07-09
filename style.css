@@ -313,7 +313,15 @@ footer{background:var(--navy); color:#8C97AC; padding:34px 0; font-size:0.85rem;
   .stats-grid{grid-template-columns:repeat(2,1fr); gap:20px;}
   .stat-num{font-size:1.5rem;}
   .section-title{font-size:1.6rem;}
-  .about-portrait{aspect-ratio:16/10;}
+  .about-portrait{
+    aspect-ratio:1 / 1.1;
+    width:100%;
+    max-width:280px;
+    margin:0 auto;
+    padding:12px;
+  }
+  .portrait-mark{padding:5px 26px; margin:-12px;}
+  .portrait-mark .initials{font-size:1.6rem;}
   .footer-inner{flex-direction:column; gap:10px; text-align:center;}
   .resume-actions{flex-direction:column;}
   .btn-resume{width:100%; justify-content:center;}
