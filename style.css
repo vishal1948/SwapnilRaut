@@ -316,7 +316,7 @@ footer{background:var(--navy); color:#8C97AC; padding:34px 0; font-size:0.85rem;
   .about-portrait{
     aspect-ratio:1 / 1.1;
     width:100%;
-    max-width:280px;
+    max-width:360px;
     margin:0 auto;
     padding:12px;
   }
